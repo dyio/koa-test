@@ -1,0 +1,39 @@
+{
+  "name": "koa-test",
+  "version": "1.0.0",
+  "description": "try to study koa",
+  "main": "app.js",
+  "dependencies": {
+    "koa": "^2.7.0"
+  },
+  "devDependencies": {
+    "koa-router": "^7.4.0",
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyio/koa-test.git"
+  },
+  "keywords": [
+    "before",
+    "blog",
+    "we",
+    "should",
+    "to",
+    "study",
+    "koa"
+  ],
+  "author": "dinglei&&yaoran",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyio/koa-test/issues"
+  },
+  "homepage": "https://github.com/dyio/koa-test#readme",
+  "nodemonConfig": {
+    "delay": "2000"
+  }
+}
