@@ -1,9 +1,11 @@
-const Koa = require('koa');
+const initApp = require('./init');
 const router = require('./src/routers/index');
-const app = new Koa();
 
 
-app.use(router.routes());
+initApp.use(router.routes());
+initApp.listen(3000);
 
 
-app.listen(3000);
+
+
+
