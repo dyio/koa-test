@@ -8,7 +8,7 @@ app.context.connection = mysql.createConnection({
     password:'yimao520!',
     database: 'study'
 });
-console.log('init');
+// console.log('init');
 
 
 module.exports = app;

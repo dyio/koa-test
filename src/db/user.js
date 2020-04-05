@@ -16,4 +16,7 @@ module.exports = class UserModel extends BaseModel{
         })
         
     }
+
+    getUserById(id) {} 
+    
 }
